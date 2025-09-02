@@ -1,0 +1,11 @@
+def converter(celsius):
+    forenheit=(celsius*9/5)+32
+
+    return forenheit
+
+
+a=float(input("Input temperature in celsius:"))
+
+converted=converter(a)
+
+print("Temperature in forenheits:", converted)
